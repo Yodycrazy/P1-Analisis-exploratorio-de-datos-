@@ -1,0 +1,22 @@
+PROYECTO COVID 19 
+
+1ra parte
+- Limpieza de base de datos
+- Visualización de variables categóricas (Graficas)
+ y numéricas 
+- Eliminación de datos nulos y sin importancia
+- Creación de copias de la base de datos
+- Exportar base de datos limpia
+- GENERACIÓN DE INSIGHTS
+- Graficas de las posibles relaciones de las variables
+
+1da parte
+- Conclusiones de las graficas
+- Resolver algunas preguntas sobre la base de datos
+- Predicción Regresión lineal
+- Definir cual herramienta nos funciona : Arbol, grafo, etc.
+- Colocar un mapa que muestre los diferentes municipios y sus estados de covid 19
+- Arreglo para distancias de entrega de medicamentos
+- Red heurística (medir distancias entre municipios)
+coordenadas normales a cartesianas para el ejemplo
+- Grafica con la ruta final de la entrega de medicamentos por municipio.

@@ -1,0 +1,1409 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ceacaba73a344db20ce572656137ac67 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ceacaba73a344db20ce572656137ac67" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ceacaba73a344db20ce572656137ac67 = L.map(
+                "map_ceacaba73a344db20ce572656137ac67",
+                {
+                    center: [4.60971, -74.08175],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2965d13d1c888b6b61c9e4d83d359c52 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var marker_98c139dff4c1944c1edbaa5219ea569e = L.marker(
+                [4.372744676, -74.671110509],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_5611785b04d301577c2db52b63489c5f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_98c139dff4c1944c1edbaa5219ea569e.setIcon(icon_5611785b04d301577c2db52b63489c5f);
+        
+    
+            marker_98c139dff4c1944c1edbaa5219ea569e.bindTooltip(
+                `<div>
+                     AGUA DE DIOS - 24 Fallecido - 832 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7fdc625106ab98c7f4885bab22184dad = L.marker(
+                [4.559962881, -74.525695298],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_d733db5e809fe95dcdc823f08765f2e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7fdc625106ab98c7f4885bab22184dad.setIcon(icon_d733db5e809fe95dcdc823f08765f2e7);
+        
+    
+            marker_7fdc625106ab98c7f4885bab22184dad.bindTooltip(
+                `<div>
+                     ANAPOIMA - 36 Fallecido - 1760 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1515527e24329832e7e466c226253378 = L.marker(
+                [4.789313614, -74.461942563],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_b18d6f363f9daffe1ce668e72ab6db82 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1515527e24329832e7e466c226253378.setIcon(icon_b18d6f363f9daffe1ce668e72ab6db82);
+        
+    
+            marker_1515527e24329832e7e466c226253378.bindTooltip(
+                `<div>
+                     ANOLAIMA - 41 Fallecido - 495 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dbab768fc43ada905fed925b36ed1dcc = L.marker(
+                [4.847821091, -74.528627661],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_1bec953738f0074ce6a40ea1eb733fe6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dbab768fc43ada905fed925b36ed1dcc.setIcon(icon_1bec953738f0074ce6a40ea1eb733fe6);
+        
+    
+            marker_dbab768fc43ada905fed925b36ed1dcc.bindTooltip(
+                `<div>
+                     BITUIMA - 4 Fallecido - 42 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bc7a59697190a253ff5b7edd313dc223 = L.marker(
+                [3.91861924, -74.44615606],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_c8da29b1431017bf4b054f8eb368d9f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bc7a59697190a253ff5b7edd313dc223.setIcon(icon_c8da29b1431017bf4b054f8eb368d9f5);
+        
+    
+            marker_bc7a59697190a253ff5b7edd313dc223.bindTooltip(
+                `<div>
+                     CABRERA - 3 Fallecido - 147 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8cef97ecdbeb308489720868f8592318 = L.marker(
+                [4.723063341, -74.459195283],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_eb3da533e2945ad78a701845ffe761de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8cef97ecdbeb308489720868f8592318.setIcon(icon_eb3da533e2945ad78a701845ffe761de);
+        
+    
+            marker_8cef97ecdbeb308489720868f8592318.bindTooltip(
+                `<div>
+                     CACHIPAY - 24 Fallecido - 407 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_27a8da66eca21c6b627fc17a12a4e911 = L.marker(
+                [5.338856556, -73.926148172],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_834a23fdc69f3fd028871011c040c188 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_27a8da66eca21c6b627fc17a12a4e911.setIcon(icon_834a23fdc69f3fd028871011c040c188);
+        
+    
+            marker_27a8da66eca21c6b627fc17a12a4e911.bindTooltip(
+                `<div>
+                     CARMEN DE CARUPA - 21 Fallecido - 316 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_36a37255cd8e642a190eb72e91989574 = L.marker(
+                [4.463746629, -74.04605246],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_e42cfa60afa9d62a6a0237f4a90e979a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_36a37255cd8e642a190eb72e91989574.setIcon(icon_e42cfa60afa9d62a6a0237f4a90e979a);
+        
+    
+            marker_36a37255cd8e642a190eb72e91989574.bindTooltip(
+                `<div>
+                     CHIPAQUE - 31 Fallecido - 445 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f5b5bd64f756618342e4173c85b6681a = L.marker(
+                [5.103127532, -73.97536559],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_fcfa15dfb27edd384f518d929f9df22c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f5b5bd64f756618342e4173c85b6681a.setIcon(icon_fcfa15dfb27edd384f518d929f9df22c);
+        
+    
+            marker_f5b5bd64f756618342e4173c85b6681a.bindTooltip(
+                `<div>
+                     COGUA - 69 Fallecido - 2264 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b39c6d8942089c1d0374eee3eb52e283 = L.marker(
+                [4.76754674, -74.141558295],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_025a05820f86c690ec8549e04c1271de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b39c6d8942089c1d0374eee3eb52e283.setIcon(icon_025a05820f86c690ec8549e04c1271de);
+        
+    
+            marker_b39c6d8942089c1d0374eee3eb52e283.bindTooltip(
+                `<div>
+                     COTA - 52 Fallecido - 4709 Leve - 2 Moderado
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a9531776fecd6458cf3a6b5ceb6d46d1 = L.marker(
+                [4.556947085, -74.426584776],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_1f8ae733135cc7bf9b3730eccb85fccb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a9531776fecd6458cf3a6b5ceb6d46d1.setIcon(icon_1f8ae733135cc7bf9b3730eccb85fccb);
+        
+    
+            marker_a9531776fecd6458cf3a6b5ceb6d46d1.bindTooltip(
+                `<div>
+                     EL COLEGIO - 70 Fallecido - 1555 Leve - 1 Moderado
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5d40849ac0c7bb1e90a9d93c85a77a39 = L.marker(
+                [4.879723016, -74.238022729],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_c8151f732616ac9ccdf41f5ed6a147b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5d40849ac0c7bb1e90a9d93c85a77a39.setIcon(icon_c8151f732616ac9ccdf41f5ed6a147b7);
+        
+    
+            marker_5d40849ac0c7bb1e90a9d93c85a77a39.bindTooltip(
+                `<div>
+                     EL ROSAL - 27 Fallecido - 1668 Leve - 1 Moderado
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ca65a777e283ee830505303d6debafce = L.marker(
+                [4.316280072, -73.952867838],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_673afcc098efa9e3f9975fbf69cdf8a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ca65a777e283ee830505303d6debafce.setIcon(icon_673afcc098efa9e3f9975fbf69cdf8a2);
+        
+    
+            marker_ca65a777e283ee830505303d6debafce.bindTooltip(
+                `<div>
+                     FOSCA - 6 Fallecido - 165 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_897d3d7b1cee32df0883b6a9f05bb595 = L.marker(
+                [4.743996711, -74.198659923],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_4fe7954056ec0e815764e7b841518201 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_897d3d7b1cee32df0883b6a9f05bb595.setIcon(icon_4fe7954056ec0e815764e7b841518201);
+        
+    
+            marker_897d3d7b1cee32df0883b6a9f05bb595.bindTooltip(
+                `<div>
+                     FUNZA - 267 Fallecido - 1 Grave - 13689 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2e5fddb0990d70816c39a518147694aa = L.marker(
+                [4.723573464, -73.600544414],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_2ac0bc1f8954cfad5f8bed796fbe31ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2e5fddb0990d70816c39a518147694aa.setIcon(icon_2ac0bc1f8954cfad5f8bed796fbe31ce);
+        
+    
+            marker_2e5fddb0990d70816c39a518147694aa.bindTooltip(
+                `<div>
+                     GAMA - 5 Fallecido - 95 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e2ce63c82fa4928788edc51ea891301 = L.marker(
+                [4.338154518, -74.811439221],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_aaf852d2adf41818fd651f7765071203 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7e2ce63c82fa4928788edc51ea891301.setIcon(icon_aaf852d2adf41818fd651f7765071203);
+        
+    
+            marker_7e2ce63c82fa4928788edc51ea891301.bindTooltip(
+                `<div>
+                     GIRARDOT - 559 Fallecido - 17374 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7c177abaa5f3646ae23758b85453beaa = L.marker(
+                [4.523484884, -74.337246192],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_9909b8e6f5c79be7be4ca4039c551bde = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7c177abaa5f3646ae23758b85453beaa.setIcon(icon_9909b8e6f5c79be7be4ca4039c551bde);
+        
+    
+            marker_7c177abaa5f3646ae23758b85453beaa.bindTooltip(
+                `<div>
+                     GRANADA - 11 Fallecido - 329 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b479e77891c16b2f72a147b5b85c4b41 = L.marker(
+                [5.173554764, -74.640146507],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_8ea1e2c57ee9f304f504a30d464228d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b479e77891c16b2f72a147b5b85c4b41.setIcon(icon_8ea1e2c57ee9f304f504a30d464228d4);
+        
+    
+            marker_b479e77891c16b2f72a147b5b85c4b41.bindTooltip(
+                `<div>
+                     GUADUAS - 79 Fallecido - 2059 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9a75e4879db95a0d6da00f399a58c136 = L.marker(
+                [4.801276832, -73.846434852],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_c056ce9d94b6dea23c0873aca3f6fb16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9a75e4879db95a0d6da00f399a58c136.setIcon(icon_c056ce9d94b6dea23c0873aca3f6fb16);
+        
+    
+            marker_9a75e4879db95a0d6da00f399a58c136.bindTooltip(
+                `<div>
+                     GUASCA - 21 Fallecido - 953 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7b9d317c3fd7f1bb15c994fe0419125e = L.marker(
+                [4.91158717, -73.786485644],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_27688fb1fb7d54586639edfe77b35a90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7b9d317c3fd7f1bb15c994fe0419125e.setIcon(icon_27688fb1fb7d54586639edfe77b35a90);
+        
+    
+            marker_7b9d317c3fd7f1bb15c994fe0419125e.bindTooltip(
+                `<div>
+                     GUATAVITA - 9 Fallecido - 447 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d6c334c6f44290aa9213ba2affe333a = L.marker(
+                [4.231875945, -73.835439807],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_d0acef94188089b7469b809b946480bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9d6c334c6f44290aa9213ba2affe333a.setIcon(icon_d0acef94188089b7469b809b946480bf);
+        
+    
+            marker_9d6c334c6f44290aa9213ba2affe333a.bindTooltip(
+                `<div>
+                     GUAYABETAL - 6 Fallecido - 185 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c27601fc80d49032d7325858fa24306e = L.marker(
+                [4.700785443, -73.929399208],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_4435d591eb834f2bbdb6d466c32a9ff3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c27601fc80d49032d7325858fa24306e.setIcon(icon_4435d591eb834f2bbdb6d466c32a9ff3);
+        
+    
+            marker_c27601fc80d49032d7325858fa24306e.bindTooltip(
+                `<div>
+                     LA CALERA - 57 Fallecido - 3965 Leve - 2 Moderado
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a6b8bb2d9f56a5742d7a41136a3326e6 = L.marker(
+                [4.650773167, -74.473217169],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_3336ea11cbf208d70c5d625c891a6077 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a6b8bb2d9f56a5742d7a41136a3326e6.setIcon(icon_3336ea11cbf208d70c5d625c891a6077);
+        
+    
+            marker_a6b8bb2d9f56a5742d7a41136a3326e6.bindTooltip(
+                `<div>
+                     LA MESA - 89 Fallecido - 3519 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e23a622f1768b30f9a0cd930c333acd1 = L.marker(
+                [5.333400646, -74.40807863],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_bdad42103506e48caa19be088347dd22 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e23a622f1768b30f9a0cd930c333acd1.setIcon(icon_bdad42103506e48caa19be088347dd22);
+        
+    
+            marker_e23a622f1768b30f9a0cd930c333acd1.bindTooltip(
+                `<div>
+                     LA PALMA - 12 Fallecido - 262 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ca09d1b0d467aa5eb89679a741cc7796 = L.marker(
+                [5.20459882, -74.407866109],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_f62d1834acdf73f13d348e1ae4a80784 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ca09d1b0d467aa5eb89679a741cc7796.setIcon(icon_f62d1834acdf73f13d348e1ae4a80784);
+        
+    
+            marker_ca09d1b0d467aa5eb89679a741cc7796.bindTooltip(
+                `<div>
+                     LA PEÑA - 2 Fallecido - 92 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_60495546367477f7364565122096c8c8 = L.marker(
+                [4.978619842, -74.339360611],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_1407d626e4ce1c73766e2ecf001bf20a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_60495546367477f7364565122096c8c8.setIcon(icon_1407d626e4ce1c73766e2ecf001bf20a);
+        
+    
+            marker_60495546367477f7364565122096c8c8.bindTooltip(
+                `<div>
+                     LA VEGA - 48 Fallecido - 1334 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1544741550af44084c4445de27887655 = L.marker(
+                [5.303637171, -73.681532277],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_a20ed70e2abc5a9479acfdbf552db07d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1544741550af44084c4445de27887655.setIcon(icon_a20ed70e2abc5a9479acfdbf552db07d);
+        
+    
+            marker_1544741550af44084c4445de27887655.bindTooltip(
+                `<div>
+                     LENGUAZAQUE - 10 Fallecido - 385 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_72ea9320261e602962a86f85eee907c3 = L.marker(
+                [4.75156751, -74.289630496],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_3c39a487c33a510f5ac25c32cdbe5c4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_72ea9320261e602962a86f85eee907c3.setIcon(icon_3c39a487c33a510f5ac25c32cdbe5c4f);
+        
+    
+            marker_72ea9320261e602962a86f85eee907c3.bindTooltip(
+                `<div>
+                     MADRID - 277 Fallecido - 13771 Leve - 4 Moderado
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b336b770797e5f68a7888d1725c185c = L.marker(
+                [4.976881151, -73.563137406],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_160476b209320ac0b85c79affca331af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5b336b770797e5f68a7888d1725c185c.setIcon(icon_160476b209320ac0b85c79affca331af);
+        
+    
+            marker_5b336b770797e5f68a7888d1725c185c.bindTooltip(
+                `<div>
+                     MANTA - 4 Fallecido - 123 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a252a4970fdec54ea37de695ffcfd7ad = L.marker(
+                [4.484437919, -73.405984868],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_1410c0b5f904fd3cab59c1789f377d3f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a252a4970fdec54ea37de695ffcfd7ad.setIcon(icon_1410c0b5f904fd3cab59c1789f377d3f);
+        
+    
+            marker_a252a4970fdec54ea37de695ffcfd7ad.bindTooltip(
+                `<div>
+                     MEDINA - 16 Fallecido - 330 Leve - 1 Moderado
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dc27953d4f06ba428eee303fbc9d9485 = L.marker(
+                [4.672714223, -74.235731935],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_fd47cfb70ec9baa55ac210c206b9056f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dc27953d4f06ba428eee303fbc9d9485.setIcon(icon_fd47cfb70ec9baa55ac210c206b9056f);
+        
+    
+            marker_dc27953d4f06ba428eee303fbc9d9485.bindTooltip(
+                `<div>
+                     MOSQUERA - 309 Fallecido - 17124 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_512e49c29adffbead8e8ee5a0d5f9d29 = L.marker(
+                [4.407952015, -74.80565317],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_e6099d2d051068d3c6d5f11bca5d9a15 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_512e49c29adffbead8e8ee5a0d5f9d29.setIcon(icon_e6099d2d051068d3c6d5f11bca5d9a15);
+        
+    
+            marker_512e49c29adffbead8e8ee5a0d5f9d29.bindTooltip(
+                `<div>
+                     NARIÑO - 3 Fallecido - 85 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e3b12bcd040b166e7f34ee68f387bf70 = L.marker(
+                [4.294780933, -74.614694997],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_86191fb434772b080e8ed47e8537d86a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e3b12bcd040b166e7f34ee68f387bf70.setIcon(icon_86191fb434772b080e8ed47e8537d86a);
+        
+    
+            marker_e3b12bcd040b166e7f34ee68f387bf70.bindTooltip(
+                `<div>
+                     NILO - 20 Fallecido - 2877 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0edccd27896f27b46087eb54a677d457 = L.marker(
+                [5.121445325, -74.397370483],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_4151769e22a41f79ce45113050084535 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0edccd27896f27b46087eb54a677d457.setIcon(icon_4151769e22a41f79ce45113050084535);
+        
+    
+            marker_0edccd27896f27b46087eb54a677d457.bindTooltip(
+                `<div>
+                     NIMAIMA - 5 Fallecido - 147 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_481d217acb40d690b4abcd4cdc1becd3 = L.marker(
+                [5.066110761, -74.389754758],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_51acc4b18dcff924236ba335073c778f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_481d217acb40d690b4abcd4cdc1becd3.setIcon(icon_51acc4b18dcff924236ba335073c778f);
+        
+    
+            marker_481d217acb40d690b4abcd4cdc1becd3.bindTooltip(
+                `<div>
+                     NOCAIMA - 10 Fallecido - 272 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ec2458987041dde7b61cd952d9b5e48a = L.marker(
+                [5.168367634, -74.163365443],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_5fa12602167eed7ba22d03634171faed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ec2458987041dde7b61cd952d9b5e48a.setIcon(icon_5fa12602167eed7ba22d03634171faed);
+        
+    
+            marker_ec2458987041dde7b61cd952d9b5e48a.bindTooltip(
+                `<div>
+                     PACHO - 57 Fallecido - 1655 Leve - 1 Moderado
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_88893d1efcf4d8403140ccfcce709ac4 = L.marker(
+                [5.387647345, -74.163956956],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_7c9d92b59a943c1161c8eaec6bc85026 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_88893d1efcf4d8403140ccfcce709ac4.setIcon(icon_7c9d92b59a943c1161c8eaec6bc85026);
+        
+    
+            marker_88893d1efcf4d8403140ccfcce709ac4.bindTooltip(
+                `<div>
+                     PAIME - 1 Fallecido - 97 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f7291dcbef1a0be79f40c4bd073d3ad8 = L.marker(
+                [4.180497268, -74.471121297],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_1b116e75f4e383fb87d094dc4713f23e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f7291dcbef1a0be79f40c4bd073d3ad8.setIcon(icon_1b116e75f4e383fb87d094dc4713f23e);
+        
+    
+            marker_f7291dcbef1a0be79f40c4bd073d3ad8.bindTooltip(
+                `<div>
+                     PANDI - 5 Fallecido - 127 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f951e0092b0a467de2235dcee44da846 = L.marker(
+                [4.368158959, -73.241661397],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_94770454945ed33d877774e9112d10d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f951e0092b0a467de2235dcee44da846.setIcon(icon_94770454945ed33d877774e9112d10d2);
+        
+    
+            marker_f951e0092b0a467de2235dcee44da846.bindTooltip(
+                `<div>
+                     PARATEBUENO - 10 Fallecido - 258 Leve - 1 Moderado
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_11bcba70044af3d213585a9124ed4007 = L.marker(
+                [4.293733611, -74.27396924],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_a228b891f83f34c523ad29991367f14d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_11bcba70044af3d213585a9124ed4007.setIcon(icon_a228b891f83f34c523ad29991367f14d);
+        
+    
+            marker_11bcba70044af3d213585a9124ed4007.bindTooltip(
+                `<div>
+                     PASCA - 5 Fallecido - 218 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_518a270db54320d61bb3c96c8bc8fe8e = L.marker(
+                [5.619752748, -74.580192303],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_08288ed5bff31a3ab8bee0bcc0f06263 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_518a270db54320d61bb3c96c8bc8fe8e.setIcon(icon_08288ed5bff31a3ab8bee0bcc0f06263);
+        
+    
+            marker_518a270db54320d61bb3c96c8bc8fe8e.bindTooltip(
+                `<div>
+                     PUERTO SALGAR - 35 Fallecido - 904 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b8febc3fe9fbe98917373d459c646b72 = L.marker(
+                [5.09998103, -74.494510697],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_d9760bf796f8efb2f9df2c567075e4b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b8febc3fe9fbe98917373d459c646b72.setIcon(icon_d9760bf796f8efb2f9df2c567075e4b7);
+        
+    
+            marker_b8febc3fe9fbe98917373d459c646b72.bindTooltip(
+                `<div>
+                     QUEBRADANEGRA - 5 Fallecido - 160 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_58f84ad4f68b6c1090375ca6919ea518 = L.marker(
+                [4.334589044, -73.85264561],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_bcebebabf47c0691723b79603338e09b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_58f84ad4f68b6c1090375ca6919ea518.setIcon(icon_bcebebabf47c0691723b79603338e09b);
+        
+    
+            marker_58f84ad4f68b6c1090375ca6919ea518.bindTooltip(
+                `<div>
+                     QUETAME - 10 Fallecido - 184 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f9ac101ae76bf198a8391a6265cc57cf = L.marker(
+                [4.726907976, -74.553599262],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_451228c14aad554ae26a330b9bbc96d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f9ac101ae76bf198a8391a6265cc57cf.setIcon(icon_451228c14aad554ae26a330b9bbc96d2);
+        
+    
+            marker_f9ac101ae76bf198a8391a6265cc57cf.bindTooltip(
+                `<div>
+                     QUIPILE - 8 Fallecido - 108 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3cf55d80381de6aedc218af8fb734a4b = L.marker(
+                [4.307363489, -74.729434034],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_815ff1edd750a337f7b0cf94a4901fe6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3cf55d80381de6aedc218af8fb734a4b.setIcon(icon_815ff1edd750a337f7b0cf94a4901fe6);
+        
+    
+            marker_3cf55d80381de6aedc218af8fb734a4b.bindTooltip(
+                `<div>
+                     RICAURTE - 27 Fallecido - 898 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bd2543957a90541e2dcce8d43cf95fed = L.marker(
+                [4.140958464, -74.353976921],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_c929b76fa56256365613596ba1e6d472 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bd2543957a90541e2dcce8d43cf95fed.setIcon(icon_c929b76fa56256365613596ba1e6d472);
+        
+    
+            marker_bd2543957a90541e2dcce8d43cf95fed.bindTooltip(
+                `<div>
+                     SAN BERNARDO - 10 Fallecido - 134 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a583c9fddeb24e61f9ae2b8c333ebe1 = L.marker(
+                [5.314600423, -74.072320771],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_6767c4f99f0343ddd95ad6a1fe0a608a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5a583c9fddeb24e61f9ae2b8c333ebe1.setIcon(icon_6767c4f99f0343ddd95ad6a1fe0a608a);
+        
+    
+            marker_5a583c9fddeb24e61f9ae2b8c333ebe1.bindTooltip(
+                `<div>
+                     SAN CAYETANO - 4 Fallecido - 75 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b8826b8ea1584d29235ecf88b6e1fe6 = L.marker(
+                [4.964100703, -74.272171286],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_4da008ff3b78e6d8ac0571c8a91f2d87 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1b8826b8ea1584d29235ecf88b6e1fe6.setIcon(icon_4da008ff3b78e6d8ac0571c8a91f2d87);
+        
+    
+            marker_1b8826b8ea1584d29235ecf88b6e1fe6.bindTooltip(
+                `<div>
+                     SAN FRANCISCO - 15 Fallecido - 409 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0911059ffc6b25ba1339aed3c346227b = L.marker(
+                [4.946805263, -74.412309212],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_2fdcc35dfcd6ee628409bc5bb2784fb2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_0911059ffc6b25ba1339aed3c346227b.setIcon(icon_2fdcc35dfcd6ee628409bc5bb2784fb2);
+        
+    
+            marker_0911059ffc6b25ba1339aed3c346227b.bindTooltip(
+                `<div>
+                     SASAIMA - 26 Fallecido - 741 Leve - 1 Moderado
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_df27544b2a54eff29ab1e8522c0f5b6c = L.marker(
+                [4.436967141, -74.37050903],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_ea8770624219cbfb31026b646bfa3a33 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_df27544b2a54eff29ab1e8522c0f5b6c.setIcon(icon_ea8770624219cbfb31026b646bfa3a33);
+        
+    
+            marker_df27544b2a54eff29ab1e8522c0f5b6c.bindTooltip(
+                `<div>
+                     SILVANIA - 49 Fallecido - 1360 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f0403e450937acba3398a1c8a5d8c89b = L.marker(
+                [5.509773128, -73.845191644],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_9129233c8f587fdaff259eb90419f505 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f0403e450937acba3398a1c8a5d8c89b.setIcon(icon_9129233c8f587fdaff259eb90419f505);
+        
+    
+            marker_f0403e450937acba3398a1c8a5d8c89b.bindTooltip(
+                `<div>
+                     SIMIJACA - 23 Fallecido - 690 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3711cd472c7e8617e2a43d0b41ecc4f4 = L.marker(
+                [4.581866267, -74.240296958],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_b5399e60b063ed2bbaae463613b1c462 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3711cd472c7e8617e2a43d0b41ecc4f4.setIcon(icon_b5399e60b063ed2bbaae463613b1c462);
+        
+    
+            marker_3711cd472c7e8617e2a43d0b41ecc4f4.bindTooltip(
+                `<div>
+                     SOACHA - 1571 Fallecido - 2 Grave - 61545 Leve - 19 Moderado
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_de6a0886a10d454ad3084efccc36b233 = L.marker(
+                [4.970358034, -74.156899234],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_787f6bbe30ee3ef79bbd895eabc6e277 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_de6a0886a10d454ad3084efccc36b233.setIcon(icon_787f6bbe30ee3ef79bbd895eabc6e277);
+        
+    
+            marker_de6a0886a10d454ad3084efccc36b233.bindTooltip(
+                `<div>
+                     SUBACHOQUE - 21 Fallecido - 1291 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2e6fa8776485f66fb0e78fd220fe2b70 = L.marker(
+                [5.122728461, -73.824273125],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_552495dfda82bc5c65d58ad5c2c3ee2d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2e6fa8776485f66fb0e78fd220fe2b70.setIcon(icon_552495dfda82bc5c65d58ad5c2c3ee2d);
+        
+    
+            marker_2e6fa8776485f66fb0e78fd220fe2b70.bindTooltip(
+                `<div>
+                     SUESCA - 34 Fallecido - 1930 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0bb78e2dd16c62d6b8dc0fd9a118d195 = L.marker(
+                [5.440092358, -73.823925286],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_b0f902f351a17ffedf5ef2e5eff4bee0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0bb78e2dd16c62d6b8dc0fd9a118d195.setIcon(icon_b0f902f351a17ffedf5ef2e5eff4bee0);
+        
+    
+            marker_0bb78e2dd16c62d6b8dc0fd9a118d195.bindTooltip(
+                `<div>
+                     SUSA - 13 Fallecido - 201 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b3f4b3d85c4137991fb04080ba229d66 = L.marker(
+                [5.242909347, -73.855403428],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_e6190cefbe04f1f2d3b81991c8ba83a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b3f4b3d85c4137991fb04080ba229d66.setIcon(icon_e6190cefbe04f1f2d3b81991c8ba83a6);
+        
+    
+            marker_b3f4b3d85c4137991fb04080ba229d66.bindTooltip(
+                `<div>
+                     SUTATAUSA - 10 Fallecido - 337 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9eec3b8551294497f2a75ac048ca3709 = L.marker(
+                [4.951520046, -74.08449648],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_5c61fee34b4d165d4ccc82913f8f2c9d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9eec3b8551294497f2a75ac048ca3709.setIcon(icon_5c61fee34b4d165d4ccc82913f8f2c9d);
+        
+    
+            marker_9eec3b8551294497f2a75ac048ca3709.bindTooltip(
+                `<div>
+                     TABIO - 41 Fallecido - 2355 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cfad1977717ef4660f80fb5226d9df77 = L.marker(
+                [5.170527212, -73.958195935],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_6bc613f2aa57923e115d519902227779 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cfad1977717ef4660f80fb5226d9df77.setIcon(icon_6bc613f2aa57923e115d519902227779);
+        
+    
+            marker_cfad1977717ef4660f80fb5226d9df77.bindTooltip(
+                `<div>
+                     TAUSA - 13 Fallecido - 395 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c67eb2832d902f6560b281a61a407542 = L.marker(
+                [4.666608192, -74.367649558],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_7fa9ebf0a739e4c5da372a85e7417e32 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c67eb2832d902f6560b281a61a407542.setIcon(icon_7fa9ebf0a739e4c5da372a85e7417e32);
+        
+    
+            marker_c67eb2832d902f6560b281a61a407542.bindTooltip(
+                `<div>
+                     TENA - 21 Fallecido - 340 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b9f94a969205959528ca235468520a12 = L.marker(
+                [4.838548601, -74.146802872],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_a69b5802d68bd5318323d64e349e46a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b9f94a969205959528ca235468520a12.setIcon(icon_a69b5802d68bd5318323d64e349e46a1);
+        
+    
+            marker_b9f94a969205959528ca235468520a12.bindTooltip(
+                `<div>
+                     TENJO - 51 Fallecido - 1901 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3b6ce6b530ebbed7db95457f239e821c = L.marker(
+                [4.321357899, -74.486672741],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_160cfd3ebafed427784925819dd91069 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3b6ce6b530ebbed7db95457f239e821c.setIcon(icon_160cfd3ebafed427784925819dd91069);
+        
+    
+            marker_3b6ce6b530ebbed7db95457f239e821c.bindTooltip(
+                `<div>
+                     TIBACUY - 7 Fallecido - 112 Leve - 1 Moderado
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69d73b53bb4e74664a41b9e1a2649f09 = L.marker(
+                [5.084102682, -73.513625457],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_1a533c6d17d00952e9a84c11a34a659a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_69d73b53bb4e74664a41b9e1a2649f09.setIcon(icon_1a533c6d17d00952e9a84c11a34a659a);
+        
+    
+            marker_69d73b53bb4e74664a41b9e1a2649f09.bindTooltip(
+                `<div>
+                     TIBIRITA - 4 Fallecido - 83 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_80b88b32e1ed7051240bbe4839a91a64 = L.marker(
+                [4.452072974, -74.648644062],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_e992a562e447165530d6f36882ae7480 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_80b88b32e1ed7051240bbe4839a91a64.setIcon(icon_e992a562e447165530d6f36882ae7480);
+        
+    
+            marker_80b88b32e1ed7051240bbe4839a91a64.bindTooltip(
+                `<div>
+                     TOCAIMA - 43 Fallecido - 651 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3dc8c28f67fbe62406652ca176a222c1 = L.marker(
+                [4.500754182, -73.975645447],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_8676471e8268e40a514bea3592c4b8c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3dc8c28f67fbe62406652ca176a222c1.setIcon(icon_8676471e8268e40a514bea3592c4b8c5);
+        
+    
+            marker_3dc8c28f67fbe62406652ca176a222c1.bindTooltip(
+                `<div>
+                     UBAQUE - 10 Fallecido - 1 Grave - 312 Leve - 1 Moderado
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d33006140b0ee49381913b5443a06e8 = L.marker(
+                [4.244611163, -74.11187304],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_e1043cd344265ced6442f8be09533782 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3d33006140b0ee49381913b5443a06e8.setIcon(icon_e1043cd344265ced6442f8be09533782);
+        
+    
+            marker_3d33006140b0ee49381913b5443a06e8.bindTooltip(
+                `<div>
+                     UNE - 16 Fallecido - 302 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_30a0a87e73210decbaac1e00ddf785c9 = L.marker(
+                [5.131267542, -74.309792287],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_b93a1afe60c02f839f07e01f1f34befb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_30a0a87e73210decbaac1e00ddf785c9.setIcon(icon_b93a1afe60c02f839f07e01f1f34befb);
+        
+    
+            marker_30a0a87e73210decbaac1e00ddf785c9.bindTooltip(
+                `<div>
+                     VERGARA - 6 Fallecido - 183 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f570b0e72717f28fb56a99c676af1ca1 = L.marker(
+                [5.011670402, -74.487647455],
+                {}
+            ).addTo(map_ceacaba73a344db20ce572656137ac67);
+        
+    
+            var icon_97b7e75eafa9651a71af1815d11b5d60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f570b0e72717f28fb56a99c676af1ca1.setIcon(icon_97b7e75eafa9651a71af1815d11b5d60);
+        
+    
+            marker_f570b0e72717f28fb56a99c676af1ca1.bindTooltip(
+                `<div>
+                     VILLETA - 67 Fallecido - 4120 Leve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
